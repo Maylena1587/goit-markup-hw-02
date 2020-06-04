@@ -1,0 +1,10 @@
+body {
+  background-color: #ffffff;
+}
+.studio-nav {
+  color: #212121;
+}
+.studio-nav:hover,
+.studio-nav:focus {
+  color: #2196f3;
+}
