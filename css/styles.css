@@ -1,10 +1,50 @@
 body {
+  color: #757575;
   background-color: #ffffff;
 }
-.studio-nav {
+ul {
+  list-style: none;
+}
+  .logo {
+    color: #000000
+  }
+  .logo-accent {
+    color: #2196F3
+  }
+  .logo:hover,
+  .logo:focus {
+    color: #2196f3
+  }
+  .contacts .link {
+    color: #757575;
+  }
+  .contacts .link:hover,
+  .contacts .link:focus {
+    color: #2196f3
+  }
+/* site-nav */
+  .site-nav .link {
   color: #212121;
 }
-.studio-nav:hover,
-.studio-nav:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #2196f3;
 }
+/* hero */
+.hero-title {
+  color: #212121
+}
+/* section */
+
+.section-title {
+  color: #212121
+}
+
+
+color: #212121;
+#757575
+color: #FFFFFF
+color: #2196F3
+
+logo studio color: #000000
+web color: #2196F3
