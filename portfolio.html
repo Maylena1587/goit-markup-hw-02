@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -12,12 +16,12 @@
     <header class="page-header">
       <nav>
         <a href="/" class="logo">
-          <p><span>Web</span>Studio</p>
+          <p><span class="logo-accent">Web</span>Studio</p>
         </a>
         <ul class="site-nav">
-          <li><a href="" class="site-nav-link">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
       <ul class="contacts">
@@ -25,13 +29,13 @@
           <a href="/">
             <img src="./images/envelope-hover.svg" alt="электронная почта" />
           </a>
-          <a href="">info@devstudio.com</a>
+          <a href="" class="link">info@devstudio.com</a>
         </li>
         <li>
           <a href="/">
             <img src="./images/smartphone.svg" alt="смартфон" />
           </a>
-          <a href="">+38 096 111 11 11</a>
+          <a href="" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -41,37 +45,37 @@
         <h1>Портфолио</h1>
 
         <!--Фильтр-->
-        <ul>
+        <ul class="button">
           <li>
-            <button type="button">Все</button>
+            <button type="button" class="button primary">Все</button>
           </li>
           <li>
-            <button type="button">Веб-сайты</button>
+            <button type="button" class="button primary">Веб-сайты</button>
           </li>
           <li>
-            <button type="button">Приложения</button>
+            <button type="button" class="button primary">Приложения</button>
           </li>
           <li>
-            <button type="button">Дизайн</button>
+            <button type="button" class="button primary">Дизайн</button>
           </li>
           <li>
-            <button type="button">Маркетинг</button>
+            <button type="button" class="button primary">Маркетинг</button>
           </li>
         </ul>
 
         <!--Портфолио-->
-        <h2>Примеры работ</h2>
-        <ul>
+
+        <ul class="work-roster">
           <li>
             <a href="">
               <img src="./images/img-one.jpg" alt="пример страницы веб-сайта" />
-              <p>
+              <p class="text">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <h3>Технокряк</h3>
-              <p>
+              <h2 class="title">Технокряк</h2>
+              <p class="text">
                 Веб-сайт
               </p>
             </a>
@@ -79,13 +83,13 @@
           <li>
             <a href="">
               <img src="./images/star.jpg" alt="баскетболисты" />
-              <p>
+              <p class="text">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <h3>Постер New Orlean vs Golden Star</h3>
-              <p>
+              <h2 class="title">Постер New Orlean vs Golden Star</h2>
+              <p class="text">
                 Дизайн
               </p>
             </a>
@@ -93,13 +97,13 @@
           <li>
             <img src="./images/seafood.jpg" alt="логотип ресторана" />
             <a href="">
-              <p>
+              <p class="text">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <h3>Ресторан Seafood</h3>
-              <p>
+              <h2 class="title">Ресторан Seafood</h2>
+              <p class="text">
                 Приложение
               </p>
             </a>
@@ -107,13 +111,13 @@
           <li>
             <a href="">
               <img src="./images/prime.jpg" alt="наушники" />
-              <p>
+              <p class="text">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <h3>Проект Prime</h3>
-              <p>
+              <h2 class="title">Проект Prime</h2>
+              <p class="text">
                 Веб-сайт
               </p>
             </a>
@@ -121,13 +125,13 @@
           <li>
             <a href="">
               <img src="./images/boxes.jpg" alt="две коробки" />
-              <p>
+              <p class="text">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <h3>Проект Boxes</h3>
-              <p>
+              <h2 class="title">Проект Boxes</h2>
+              <p class="text">
                 Приложение
               </p>
             </a>
@@ -135,13 +139,13 @@
           <li>
             <a href="">
               <img src="./images/borders.jpg" alt="монитор компьюрета" />
-              <p>
+              <p class="text">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <h3>Inspiration has no Borders</h3>
-              <p>
+              <h2 class="title">Inspiration has no Borders</h2>
+              <p class="text">
                 Веб-сайт
               </p>
             </a>
@@ -149,13 +153,13 @@
           <li>
             <a href="">
               <img src="./images/limited-edition.jpg" alt="открытый журнал" />
-              <p>
+              <p class="text">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <h3>Издание Limited Edition</h3>
-              <p>
+              <h2 class="title">Издание Limited Edition</h2>
+              <p class="text">
                 Дизайн
               </p>
             </a>
@@ -163,13 +167,13 @@
           <li>
             <a href="">
               <img src="./images/lab.jpg" alt="бирка с логотипом" />
-              <p>
+              <p class="text">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <h3>Проект LAB</h3>
-              <p>
+              <h2 class="title">Проект LAB</h2>
+              <p class="text">
                 Маркетинг
               </p>
             </a>
@@ -180,13 +184,13 @@
                 src="./images/growing-business.jpg"
                 alt="работа за ноутбуком"
               />
-              <p>
+              <p class="text">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <h3>Growing Business</h3>
-              <p>
+              <h2 class="title">Growing Business</h2>
+              <p class="text">
                 Приложение
               </p>
             </a>
@@ -196,19 +200,21 @@
     </main>
 
     <!--Футер-->
-    <footer>
-      <a href="/">
-        <p><span>Web</span>Studio</p>
+    <footer class="footer">
+      <a href="/" class="footer-logo">
+        <p><span class="accent">Web</span>Studio</p>
       </a>
       <div>
-        <address>
-          <a href="">г. Киев, пр-т Леси Украинки, 26 <br /></a>
-          <a href="">info@example.com <br /></a>
-          <a href="">+38 099 111 11 11</a>
+        <address class="address">
+          <a href="" class="address-list"
+            >г. Киев, пр-т Леси Украинки, 26 <br
+          /></a>
+          <a href="" class="address-contact">info@example.com <br /></a>
+          <a href="" class="address-contact">+38 099 111 11 11</a>
         </address>
       </div>
       <div>
-        <b>присоединяйтесь</b>
+        <b class="subscription">присоединяйтесь</b>
         <ul>
           <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
           <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
@@ -217,9 +223,9 @@
         </ul>
       </div>
       <div>
-        <b>Подпишитесь на рассылку</b>
+        <b class="subscription">Подпишитесь на рассылку</b>
       </div>
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="developed">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
