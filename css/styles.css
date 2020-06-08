@@ -131,15 +131,21 @@ ul {
 }
 .address .address-list {
   color: var(--primary-white-color);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
+  text-decoration: none;
 }
 .address-contact {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
+  text-decoration: none;
+}
+.list .item {
+  text-decoration: none;
 }
 .subscription {
   color: var(--primary-white-color);
@@ -156,6 +162,10 @@ ul {
 }
 
 /* Portfolio */
+
+.portfolio {
+  text-decoration: none;
+}
 
 .work-roster .title {
   color: var(--title-text-color);
