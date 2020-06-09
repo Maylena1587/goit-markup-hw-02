@@ -113,7 +113,9 @@ ul {
   font-size: 16px;
   line-height: 1.18;
 }
-
+.customers-title {
+  text-decoration: none;
+}
 /* Footer */
 
 .footer {
